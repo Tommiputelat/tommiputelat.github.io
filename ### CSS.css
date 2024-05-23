@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #202020;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-pic {
+    max-width: 120px; /* Smaller photo */
+    border-radius: 50%; /* Circular photo */
+}
+
+.linkedin-qr img {
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #202020;
+    color: #fff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
